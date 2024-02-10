@@ -58,44 +58,41 @@
     Array - Vetor - Lista
         const temperatura [23, 17, 30, 31.2, 2]
     
-   - Object
-        const pessoa = {
-            nome: "Rangel",
-            idade: 41,
-            filhos: ["Pietra", "Paola", "Pilar", "Theodoro","Thomaz"]
-        }
-        console.log(pessoa.filho[3])
+   #Object
+      const pessoa = {
+         nome: "Rangel",
+         idade: 41,
+         filhos: ["Pietra", "Paola", "Pilar", "Theodoro","Thomaz"]
+      }
+      console.log(pessoa.filho[3])
 
-  - Funçao
-    - Criação da função () {
-        console.log ('codigo dentro da função!')
-        }
-
-    - Execução da função
-        function nomeDaFuncao ()
-
-    - Parametros da função
-        function soma (a, b) {
-          console.log (a + b)
-        }
-      soma (34, 89)
-
-  - Retorno
+  #Função
+      - Criação da função(){
+         console.log ('codigo dentro da função!')
+         }
+      - Execução da função
+         function nomeDaFuncao ()
+      - Parametros da função
+         function soma (a, b) {
+         console.log (a + b)
+         }
+         soma (34, 89)
+   
+   #Retorno
       function soma (a, b) {
         return a + b
       }
-
       const multiplica = soma (2, 2) * 4
       console.log multiplica
       console.log(soma(2,2))
-
-    - Extensões da linguagem (Math, Date)
+   
+   #Extensões da linguagem (Math, Date)
       - Math.random()
       - Math.floor(1.2)
       - Math.ceil()
       - Math.PI
-
-    - DOM (Document Object Model)
+   
+   #DOM (Document Object Model)
       - window
       - window.alert("alerta")
       - document
